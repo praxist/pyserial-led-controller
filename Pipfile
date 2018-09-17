@@ -1,0 +1,13 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+
+[packages]
+pyserial = '>3'
+evdev = ">0.8"
+
+[requires]
+python_version = "3.6.5"
